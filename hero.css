@@ -1,0 +1,45 @@
+.hero{
+    max-width: 100%;
+    /* border: crimson; */
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.imagen{
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img{
+    max-width: 100%;
+}
+.text{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 100%;
+}
+
+.text h1{
+    font-family:'Roboto Slab', serif; 
+    font-weight: 700;
+    font-size: 48px;
+}
+.text h1 span{
+    font-size: 59px;
+}
+.text p{
+    font-family:'Roboto Slab', serif; 
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 1024px){
+    .hero{
+        flex-direction: row-reverse;  
+    }    
